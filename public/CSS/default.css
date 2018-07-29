@@ -1,5 +1,28 @@
+body {
+    background-color: #272727;
+    color:#747474;
+}
+
 .centerTitle {
     width:100%;
-    font-size: 20px;
+    font-size: 200px;
     text-align: center;
+}
+
+.inputGrades {
+    border-collapse: collapse;
+    width: 60%;
+    margin-left:20%;
+}
+
+.inputGrades td, .inputGrades th {
+    border: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.inputGrades th {
+    background-color: #25274D;
+    padding: 30px 0;
+    text-align: center;
+    color: #747474;
 }
